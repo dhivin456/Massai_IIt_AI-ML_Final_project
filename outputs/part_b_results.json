@@ -1,0 +1,253 @@
+{
+  "kmeans_scores": [
+    {
+      "k": 2,
+      "inertia": 1820.7605530118508,
+      "silhouette": 0.464971805147615
+    },
+    {
+      "k": 3,
+      "inertia": 1268.2345870687623,
+      "silhouette": 0.4451611905197954
+    },
+    {
+      "k": 4,
+      "inertia": 743.0711078443475,
+      "silhouette": 0.5255443348818724
+    },
+    {
+      "k": 5,
+      "inertia": 617.3666358544998,
+      "silhouette": 0.48049500840771253
+    },
+    {
+      "k": 6,
+      "inertia": 503.17062225816557,
+      "silhouette": 0.4818721636138158
+    },
+    {
+      "k": 7,
+      "inertia": 408.460454419409,
+      "silhouette": 0.4163373417690264
+    },
+    {
+      "k": 8,
+      "inertia": 366.50348655316805,
+      "silhouette": 0.4123290612695322
+    }
+  ],
+  "chosen_k": 4,
+  "segment_profiles": [
+    {
+      "segment_id": 0,
+      "size": 436,
+      "mean_recency": 28.862385321100916,
+      "mean_frequency": 3.772935779816514,
+      "mean_monetary": 1057.618233944954
+    },
+    {
+      "segment_id": 1,
+      "size": 138,
+      "mean_recency": 24.115942028985508,
+      "mean_frequency": 6.768115942028985,
+      "mean_monetary": 7129.695652173913
+    },
+    {
+      "segment_id": 2,
+      "size": 419,
+      "mean_recency": 8.766109785202865,
+      "mean_frequency": 19.403341288782816,
+      "mean_monetary": 3410.020525059666
+    },
+    {
+      "segment_id": 3,
+      "size": 182,
+      "mean_recency": 109.04395604395604,
+      "mean_frequency": 2.2032967032967035,
+      "mean_monetary": 685.9925824175824
+    }
+  ],
+  "segment_names": {
+    "0": "At-Risk / Dormant",
+    "1": "Premium High Value",
+    "2": "Frequent Essentials",
+    "3": "At-Risk / Dormant"
+  },
+  "premium_segment_id": 1,
+  "pca_explained_variance_ratio": [
+    0.6342787496047425,
+    0.2180376171454743
+  ],
+  "lapse": {
+    "cohort_rows": 1156,
+    "lapsed_count": 443,
+    "lapsed_rate_pct": 38.32179930795848,
+    "train_rows": 924,
+    "test_rows": 232,
+    "baseline": {
+      "accuracy": 0.6163793103448276,
+      "f1_lapsed": 0.0
+    },
+    "logistic": {
+      "best_params": {
+        "model__C": 100
+      },
+      "best_cv_f1": 0.650552962900789,
+      "test": {
+        "confusion_matrix": [
+          [
+            111,
+            32
+          ],
+          [
+            31,
+            58
+          ]
+        ],
+        "precision_lapsed": 0.6444444444444445,
+        "recall_lapsed": 0.651685393258427,
+        "f1_lapsed": 0.6480446927374302,
+        "accuracy": 0.728448275862069
+      }
+    },
+    "random_forest": {
+      "best_params": {
+        "model__max_depth": 8,
+        "model__min_samples_leaf": 5
+      },
+      "best_cv_f1": 0.6888907497631135,
+      "test": {
+        "confusion_matrix": [
+          [
+            105,
+            38
+          ],
+          [
+            35,
+            54
+          ]
+        ],
+        "precision_lapsed": 0.5869565217391305,
+        "recall_lapsed": 0.6067415730337079,
+        "f1_lapsed": 0.5966850828729282,
+        "accuracy": 0.6853448275862069
+      }
+    },
+    "selected_model": "random_forest",
+    "selected_test": {
+      "confusion_matrix": [
+        [
+          105,
+          38
+        ],
+        [
+          35,
+          54
+        ]
+      ],
+      "precision_lapsed": 0.5869565217391305,
+      "recall_lapsed": 0.6067415730337079,
+      "f1_lapsed": 0.5966850828729282,
+      "accuracy": 0.6853448275862069
+    },
+    "reload_predictions_identical": true,
+    "balanced_logistic_test": {
+      "confusion_matrix": [
+        [
+          90,
+          53
+        ],
+        [
+          13,
+          76
+        ]
+      ],
+      "precision_lapsed": 0.5891472868217055,
+      "recall_lapsed": 0.8539325842696629,
+      "f1_lapsed": 0.6972477064220184,
+      "accuracy": 0.7155172413793104
+    },
+    "balanced_logistic_best_C": {
+      "model__C": 100
+    },
+    "feature_importances": [
+      {
+        "feature": "num__frequency",
+        "importance": 0.2684946958374876
+      },
+      {
+        "feature": "num__monetary",
+        "importance": 0.2423292924452877
+      },
+      {
+        "feature": "num__recency",
+        "importance": 0.11304111331355209
+      },
+      {
+        "feature": "num__avg_delivery",
+        "importance": 0.06502138568001944
+      },
+      {
+        "feature": "num__cancellation_rate",
+        "importance": 0.056626225222732335
+      }
+    ],
+    "logistic_coefficient_signs": [
+      {
+        "feature": "num__frequency",
+        "coefficient": -1.6973307258551031,
+        "sign": "negative"
+      },
+      {
+        "feature": "cat__favourite_category_Electronics",
+        "coefficient": -1.1350564326022803,
+        "sign": "negative"
+      },
+      {
+        "feature": "cat__favourite_category_Grocery",
+        "coefficient": -0.44922553406560295,
+        "sign": "negative"
+      },
+      {
+        "feature": "cat__city_Delhi",
+        "coefficient": -0.3730693051552078,
+        "sign": "negative"
+      },
+      {
+        "feature": "cat__favourite_category_Personal Care",
+        "coefficient": -0.2848011396917336,
+        "sign": "negative"
+      },
+      {
+        "feature": "num__monetary",
+        "coefficient": 0.283425353066378,
+        "sign": "positive"
+      },
+      {
+        "feature": "cat__favourite_category_Snacks",
+        "coefficient": -0.2828157357318311,
+        "sign": "negative"
+      },
+      {
+        "feature": "cat__city_Mumbai",
+        "coefficient": -0.22995750673589882,
+        "sign": "negative"
+      },
+      {
+        "feature": "cat__gender_male",
+        "coefficient": -0.20961081521491048,
+        "sign": "negative"
+      },
+      {
+        "feature": "cat__city_Chennai",
+        "coefficient": -0.169303668847352,
+        "sign": "negative"
+      }
+    ],
+    "training_scaler_frequency_mean": 8.114718614718615,
+    "full_cohort_frequency_mean": 8.028546712802768,
+    "premium_retention_rows": 10,
+    "premium_retention_actually_lapsed": 2,
+    "features_missing": 0
+  }
+}

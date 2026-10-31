@@ -1,0 +1,464 @@
+{
+  "Q1": {
+    "rows": 30,
+    "head": [
+      {
+        "customer_id": "C0693",
+        "qualifying_spend": 13776.550000000001
+      },
+      {
+        "customer_id": "C0082",
+        "qualifying_spend": 12317.7
+      },
+      {
+        "customer_id": "C0743",
+        "qualifying_spend": 12266.85
+      },
+      {
+        "customer_id": "C0525",
+        "qualifying_spend": 12241.3
+      },
+      {
+        "customer_id": "C0291",
+        "qualifying_spend": 12150.7
+      },
+      {
+        "customer_id": "C0267",
+        "qualifying_spend": 12150.25
+      },
+      {
+        "customer_id": "C0488",
+        "qualifying_spend": 11825.5
+      },
+      {
+        "customer_id": "C0699",
+        "qualifying_spend": 11693.9
+      },
+      {
+        "customer_id": "C0512",
+        "qualifying_spend": 11617.65
+      },
+      {
+        "customer_id": "C0332",
+        "qualifying_spend": 10779.5
+      }
+    ]
+  },
+  "Q2": {
+    "rows": 30,
+    "head": [
+      {
+        "city": "Bengaluru",
+        "category": "Dairy",
+        "revenue": 87075.05
+      },
+      {
+        "city": "Bengaluru",
+        "category": "Electronics",
+        "revenue": 233909.45
+      },
+      {
+        "city": "Bengaluru",
+        "category": "Grocery",
+        "revenue": 110915.65
+      },
+      {
+        "city": "Bengaluru",
+        "category": "Personal Care",
+        "revenue": 20193.85
+      },
+      {
+        "city": "Bengaluru",
+        "category": "Snacks",
+        "revenue": 71549.4
+      },
+      {
+        "city": "Chennai",
+        "category": "Dairy",
+        "revenue": 78301.8
+      },
+      {
+        "city": "Chennai",
+        "category": "Electronics",
+        "revenue": 195508.8
+      },
+      {
+        "city": "Chennai",
+        "category": "Grocery",
+        "revenue": 93817.45
+      },
+      {
+        "city": "Chennai",
+        "category": "Personal Care",
+        "revenue": 27675.4
+      },
+      {
+        "city": "Chennai",
+        "category": "Snacks",
+        "revenue": 68325.7
+      }
+    ],
+    "total_revenue": 2998668.8,
+    "largest_cell": {
+      "city": "Bengaluru",
+      "category": "Electronics",
+      "revenue": 233909.45
+    }
+  },
+  "Q3": {
+    "rows": 11,
+    "head": [
+      {
+        "product_id": "P038",
+        "product_name": "Bluetooth Speaker",
+        "price_inr": 1999
+      },
+      {
+        "product_id": "P033",
+        "product_name": "Wireless Earbuds",
+        "price_inr": 1499
+      },
+      {
+        "product_id": "P034",
+        "product_name": "Power Bank 10000mAh",
+        "price_inr": 1299
+      },
+      {
+        "product_id": "P036",
+        "product_name": "Phone Charger 20W",
+        "price_inr": 799
+      },
+      {
+        "product_id": "P037",
+        "product_name": "Smart Bulb",
+        "price_inr": 599
+      },
+      {
+        "product_id": "P040",
+        "product_name": "Memory Card 64GB",
+        "price_inr": 549
+      },
+      {
+        "product_id": "P032",
+        "product_name": "Sunscreen 50g",
+        "price_inr": 399
+      },
+      {
+        "product_id": "P030",
+        "product_name": "Body Lotion 400ml",
+        "price_inr": 350
+      },
+      {
+        "product_id": "P039",
+        "product_name": "Phone Stand",
+        "price_inr": 349
+      },
+      {
+        "product_id": "P014",
+        "product_name": "Ghee 500ml",
+        "price_inr": 340
+      }
+    ]
+  },
+  "Q4": {
+    "rows": 25,
+    "head": [
+      {
+        "customer_id": "C0029"
+      },
+      {
+        "customer_id": "C0037"
+      },
+      {
+        "customer_id": "C0093"
+      },
+      {
+        "customer_id": "C0115"
+      },
+      {
+        "customer_id": "C0120"
+      },
+      {
+        "customer_id": "C0151"
+      },
+      {
+        "customer_id": "C0354"
+      },
+      {
+        "customer_id": "C0363"
+      },
+      {
+        "customer_id": "C0412"
+      },
+      {
+        "customer_id": "C0461"
+      }
+    ]
+  },
+  "Q5": {
+    "rows": 550,
+    "head": [
+      {
+        "customer_id": "C0693",
+        "total_spend": 14766.550000000001
+      },
+      {
+        "customer_id": "C0291",
+        "total_spend": 13742.6
+      },
+      {
+        "customer_id": "C0488",
+        "total_spend": 13187.5
+      },
+      {
+        "customer_id": "C0082",
+        "total_spend": 12856.2
+      },
+      {
+        "customer_id": "C0743",
+        "total_spend": 12730.050000000001
+      },
+      {
+        "customer_id": "C0525",
+        "total_spend": 12719.7
+      },
+      {
+        "customer_id": "C0699",
+        "total_spend": 12471.8
+      },
+      {
+        "customer_id": "C0267",
+        "total_spend": 12210.25
+      },
+      {
+        "customer_id": "C0332",
+        "total_spend": 11806.4
+      },
+      {
+        "customer_id": "C0512",
+        "total_spend": 11617.65
+      }
+    ],
+    "average_total": 2552.06
+  },
+  "Q6": {
+    "rows": 1175,
+    "head": [
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0082",
+        "total_spend": 12856.2,
+        "spend_rank": 1,
+        "dense_rank": 1,
+        "row_num": 1
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0525",
+        "total_spend": 12719.7,
+        "spend_rank": 2,
+        "dense_rank": 2,
+        "row_num": 2
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0699",
+        "total_spend": 12471.8,
+        "spend_rank": 3,
+        "dense_rank": 3,
+        "row_num": 3
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0543",
+        "total_spend": 11195.1,
+        "spend_rank": 4,
+        "dense_rank": 4,
+        "row_num": 4
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C1147",
+        "total_spend": 10156.9,
+        "spend_rank": 5,
+        "dense_rank": 5,
+        "row_num": 5
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0407",
+        "total_spend": 9945.85,
+        "spend_rank": 6,
+        "dense_rank": 6,
+        "row_num": 6
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0942",
+        "total_spend": 8643.6,
+        "spend_rank": 7,
+        "dense_rank": 7,
+        "row_num": 7
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C1126",
+        "total_spend": 8595.7,
+        "spend_rank": 8,
+        "dense_rank": 8,
+        "row_num": 8
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0916",
+        "total_spend": 8444.85,
+        "spend_rank": 9,
+        "dense_rank": 9,
+        "row_num": 9
+      },
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0098",
+        "total_spend": 8151.2,
+        "spend_rank": 10,
+        "dense_rank": 10,
+        "row_num": 10
+      }
+    ],
+    "rank_vs_row_number_different": 8
+  },
+  "Q7": {
+    "rows": 183,
+    "head": [
+      {
+        "day": "2025-04-01",
+        "revenue": 16876.5,
+        "cumulative_revenue": 16876.5
+      },
+      {
+        "day": "2025-04-02",
+        "revenue": 19854.55,
+        "cumulative_revenue": 36731.05
+      },
+      {
+        "day": "2025-04-03",
+        "revenue": 28048.35,
+        "cumulative_revenue": 64779.4
+      },
+      {
+        "day": "2025-04-04",
+        "revenue": 14249.6,
+        "cumulative_revenue": 79029.0
+      },
+      {
+        "day": "2025-04-05",
+        "revenue": 16031.5,
+        "cumulative_revenue": 95060.5
+      },
+      {
+        "day": "2025-04-06",
+        "revenue": 26323.8,
+        "cumulative_revenue": 121384.3
+      },
+      {
+        "day": "2025-04-07",
+        "revenue": 15606.9,
+        "cumulative_revenue": 136991.2
+      },
+      {
+        "day": "2025-04-08",
+        "revenue": 17055.45,
+        "cumulative_revenue": 154046.65
+      },
+      {
+        "day": "2025-04-09",
+        "revenue": 20403.35,
+        "cumulative_revenue": 174450.0
+      },
+      {
+        "day": "2025-04-10",
+        "revenue": 15359.9,
+        "cumulative_revenue": 189809.9
+      }
+    ],
+    "last_cumulative": 2998668.8
+  },
+  "pandas": {
+    "pivot_grand_total": 2998668.8000000003,
+    "city_aggregates": [
+      {
+        "city": "Bengaluru",
+        "sum": 523643.4,
+        "mean": 276.47,
+        "count": 1894
+      },
+      {
+        "city": "Chennai",
+        "sum": 463629.15,
+        "mean": 272.72,
+        "count": 1700
+      },
+      {
+        "city": "Delhi",
+        "sum": 502829.8,
+        "mean": 243.62,
+        "count": 2064
+      },
+      {
+        "city": "Hyderabad",
+        "sum": 528589.9,
+        "mean": 284.95,
+        "count": 1855
+      },
+      {
+        "city": "Mumbai",
+        "sum": 479058.5,
+        "mean": 297.0,
+        "count": 1613
+      },
+      {
+        "city": "Pune",
+        "sum": 500918.05,
+        "mean": 252.48,
+        "count": 1984
+      }
+    ],
+    "stats": {
+      "mean": 269.9071827182718,
+      "median": 135.0,
+      "skew": 4.608827438881415,
+      "q1": 64.8,
+      "q3": 297.0,
+      "lower_fence": -283.49999999999994,
+      "upper_fence": 645.3,
+      "outliers_below": 0,
+      "outliers_above": 897,
+      "correlation": {
+        "order_amount": {
+          "order_amount": 1.0,
+          "discount_pct": -0.0951,
+          "quantity": 0.0873,
+          "delivery_minutes": -0.0031
+        },
+        "discount_pct": {
+          "order_amount": -0.0951,
+          "discount_pct": 1.0,
+          "quantity": -0.0004,
+          "delivery_minutes": -0.0098
+        },
+        "quantity": {
+          "order_amount": 0.0873,
+          "discount_pct": -0.0004,
+          "quantity": 1.0,
+          "delivery_minutes": -0.0126
+        },
+        "delivery_minutes": {
+          "order_amount": -0.0031,
+          "discount_pct": -0.0098,
+          "quantity": -0.0126,
+          "delivery_minutes": 1.0
+        }
+      }
+    }
+  }
+}
